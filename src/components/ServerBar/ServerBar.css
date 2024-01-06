@@ -1,0 +1,33 @@
+.serverbar{
+    display: flex;
+    flex: 0.04;
+    background-color: #363a3f;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serverbar__addserver{
+    padding: 20px 0 5px 0;
+    color: white;
+    border-bottom: 3px solid #27282c;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.serverbar__image{
+    padding: 10px 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.serverbar__singleserver{
+    transform: scale(1.2);
+    padding: 8px 0 8px 0;
+    cursor: pointer;
+}
+
+.serverbar__singleserver:hover{
+    transform: scale(1.4);
+}

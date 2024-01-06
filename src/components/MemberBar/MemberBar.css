@@ -1,0 +1,31 @@
+.memberbar{
+    display: flex;
+    flex-direction:  column;
+    flex: 0.13;
+    height: 100vh;
+    background-color: #2f3135;
+}
+
+.memberbar > h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.memberbar__name{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.memberbar__name > span{
+    padding-left: 5px;
+}
+
+.memberbar__name > .MuiSvgIcon-root{
+    color: #018749;
+}
