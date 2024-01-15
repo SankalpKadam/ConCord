@@ -51,7 +51,7 @@ These features collectively contribute to creating a collaborative and user-frie
 
 To get started with **Concord**, follow these simple steps:
 1. Clone the repository.
-```git clone https://github.com/your-username/your-repo.git```
+```git clone https://github.com/sankalpkadam/ConCord.git```
 2. Install dependencies.
 ```cd concord```
 ```npm install```
